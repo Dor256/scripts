@@ -10,7 +10,7 @@ export async function start(entryPoint) {
 		incremental: true,
 		minify: false,
 		outfile: `${process.cwd()}/public/script.js`,
-    watch: true,
+  	watch: true,
 		plugins: [sassPlugin()]
 	});
   
