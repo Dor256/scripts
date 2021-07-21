@@ -7,6 +7,10 @@
   "bin": {
     "unpacked-scripts": "./bin/unpacked-scripts"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "files": [
     "src/",
     "bin/"
