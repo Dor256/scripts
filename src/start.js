@@ -11,7 +11,7 @@ export async function start(entryPoint) {
 		minify: false,
 		outfile: `${process.cwd()}/public/script.js`,
     watch: true,
-		plugins: [sassPlugin]
+		plugins: [sassPlugin()]
 	});
   
   liveServer.start({
