@@ -1,11 +1,11 @@
 {
   "name": "@unpacked/scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build scripts for React projects",
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "unpacked-scripts": "./bin/unpacked-scripts"
+    "unpacked-scripts": "./bin/unpacked-scripts.js"
   },
   "publishConfig": {
     "access": "public",
