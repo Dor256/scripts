@@ -1,0 +1,24 @@
+{
+  "name": "@unpacked/scripts",
+  "version": "1.0.0",
+  "description": "Build scripts for React projects",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "unpacked-scripts": "./bin/unpacked-scripts"
+  },
+  "files": [
+    "src/",
+    "bin/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "esbuild": "^0.12.9",
+    "live-server": "^1.2.1"
+  },
+  "author": "Dor Ben Baruch",
+  "license": "ISC"
+}
