@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "esbuild": "^0.12.9",
+    "esbuild-plugin-sass": "^0.5.2",
     "live-server": "^1.2.1"
   },
   "author": "Dor Ben Baruch",

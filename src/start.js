@@ -1,5 +1,6 @@
 import { build } from 'esbuild';
 import liveServer from "live-server";
+import sassPlugin from 'esbuild-plugin-sass';
 
 export async function start(entryPoint) {
 	await build({
@@ -10,6 +11,7 @@ export async function start(entryPoint) {
 		minify: false,
 		outfile: `${process.cwd()}/public/script.js`,
     watch: true,
+		plugins: [sassPlugin]
 	});
   
   liveServer.start({
