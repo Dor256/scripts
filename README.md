@@ -1,6 +1,6 @@
 # Unpacked Scripts
 
-This project uses `esbuild`, `live-server`, and `chokidar` to help bundle and build React projects.
+This project uses `esbuild` and `live-server` to help bundle and build React projects.
 
 ## Usage
 
